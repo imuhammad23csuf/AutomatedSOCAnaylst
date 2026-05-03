@@ -1,0 +1,52 @@
+# Local secrets and private config
+.env
+.env.*
+!.env.example
+.secrets/
+secrets/
+credentials/
+*credentials*
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Generated SOC outputs and local data
+CybersecurityAgent/artifacts/
+CybersecurityAgent/notify_config.json
+CybersecurityAgent/artifacts/notify_config.json
+CybersecurityAgent/*.csv
+CybersecurityAgent/*.joblib
+CybersecurityAgent/*.pkl
+CybersecurityAgent/*.pickle
+*.log
+
+# C/C++ build outputs
+*.exe
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.out
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+cd "/mnt/c/Users/Ibraheem/Desktop/CybersecurityAgent"
+exec "/mnt/c/Users/Ibraheem/Desktop/CybersecurityAgent/.venv/bin/python" "/mnt/c/Users/Ibraheem/Desktop/CybersecurityAgent/autosoc_heart.py" "$@"
